@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="92.389" tests="3" skipped="0" failures="1" errors="0">
+<testcase classname="MagicBricks HomeLoans" name="Validate user Navigates to Home Loans" time="32.898">
+<system-out><![CDATA[
+Given Chrome is opened and magic bricks app is opened.......................passed
+Then user navitages on Landing Page.........................................passed
+When user clicks  on login button and login with EmialID and password.......passed
+Then user  navigates to Home page...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="MagicBricks HomeLoans" name="Verify  user Navigation to Home Loans" time="40.964">
+<system-out><![CDATA[
+Given Chrome is opened and magic bricks app is opened.......................passed
+When user clicks  on login button and login with EmialID and password.......passed
+Then user  navigates to Home page...........................................passed
+When user clicks on Home loans..............................................passed
+And clicks on Home loan eligibility.........................................passed
+Then User navigates to Home Loan Eligibility calculator.....................passed
+]]></system-out>
+</testcase>
+<testcase classname="MagicBricks HomeLoans" name="Validate ChcekEligiblity Fields" time="18.353">
+<failure/>
+<system-out><![CDATA[
+Given Chrome is opened and magic bricks app is opened.......................passed
+When user clicks on Home loans..............................................passed
+And clicks on Home loan eligibility.........................................passed
+Then User navigates to Home Loan Eligibility calculator.....................passed
+Then user enters NetMontly income,ongoing emi...............................passed
+And user enters Loan Tenure and Interest Rate...............................undefined
+And click on check Eligibility button.......................................skipped
+Then shows pop up box.......................................................skipped
+]]></system-out>
+</testcase>
+</testsuite>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="0.192" tests="1" skipped="0" failures="1" errors="0">
+<testcase classname="MagicBricks HomeLoans_check" name="validate User enter Income with valid data" time="0.008">
+<failure/>
+<system-out><![CDATA[
+Given Chrome is opened and Magic Bricks App is opened.......................undefined
+Then user navigates to Landing Page.........................................skipped
+]]></system-out>
+</testcase>
+</testsuite>
